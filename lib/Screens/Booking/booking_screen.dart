@@ -2,7 +2,6 @@ import 'package:car_rental_mobile_app/Colors.dart';
 import 'package:car_rental_mobile_app/Screens/Booking/components/features_cards_widgets.dart';
 import 'package:car_rental_mobile_app/Screens/Booking/components/header_car_detail_widget.dart';
 import 'package:car_rental_mobile_app/Screens/Booking/components/price_and_booking_button_widget.dart';
-import 'package:car_rental_mobile_app/components/rounded_button_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

@@ -1,4 +1,5 @@
 import 'package:car_rental_mobile_app/Screens/Booking/booking_screen.dart';
+import 'package:car_rental_mobile_app/Screens/Payment/payment_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home:  const BookingScreen(),
+      home:  const PaymentScreen(),
     );
   }
 }
