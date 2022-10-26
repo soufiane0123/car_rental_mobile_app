@@ -29,31 +29,15 @@ class RoundedButton extends StatelessWidget {
     this.color = kPrimaryColor,
     this.textColor = Colors.white,
   });
-//Size size = MediaQuery.of(context).size;
-//size.width * 0.8
   @override
   Widget build(BuildContext context) {
     
-    return Container(
-   margin: EdgeInsets.symmetric(vertical: margin),
-      decoration: BoxDecoration(
-          color: color, borderRadius: BorderRadius.circular(borderRadius)),
-      width: width,
-      height: height,
-      child:Center(child: newElevatedButton(context)),
-    );
-  }
-
-  //Used:ElevatedButton as FlatButton is deprecated.
-  //Here we have to apply customizations to Button by inheriting the styleFrom
-
-  Widget newElevatedButton(context) {
-    return ElevatedButton(
+    return Center(child: ElevatedButton(
       style: ElevatedButton.styleFrom(
-          elevation: 0,
-          backgroundColor: Colors.transparent,
-          shape: const BeveledRectangleBorder(
-                borderRadius: BorderRadius.all(Radius.circular(10))),
+          fixedSize:Size(width, height),
+          backgroundColor: kPrimaryColor,
+          shape: const RoundedRectangleBorder(
+                borderRadius: BorderRadius.all(Radius.circular(30))),
           textStyle: TextStyle(
               color: textColor,
               fontSize: fontSize,
@@ -63,6 +47,6 @@ class RoundedButton extends StatelessWidget {
         text,
         style: GoogleFonts.poppins(color: textColor,fontWeight:fontWeight),
       ),
-    );
+    ));
   }
 }
