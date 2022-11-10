@@ -1,16 +1,6 @@
-# car_rental_mobile_app
+# Flutter Car Rental App
+This is a purely concept app, built inspired by this design:
 
-A new Flutter project.
+![image](https://user-images.githubusercontent.com/111284741/198067031-cb13c87e-55aa-48af-8355-bdf77bc17ed3.png)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Link : https://www.figma.com/community/file/1099795766992205245
